@@ -1,0 +1,304 @@
+@media screen and (max-width: 769px) {
+  .container {
+    max-width: 688px;
+    padding: 80px 0 80px 0;
+  }
+  header nav .nav {
+    padding: 10px 0 0 0;
+  }
+  header nav .nav .lists {
+    max-width: 0px;
+    position: absolute;
+    gap: 64px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    background-color: #C4B5FD;
+    border-radius: 20px;
+  }
+  header nav .nav .lists a {
+    font-size: 21px;
+    color: #7C3AED;
+  }
+  header nav .nav input:checked + ul {
+    max-width: 688px;
+    height: 185px;
+    padding: 40px;
+    top: 75px;
+    left: 17px;
+  }
+  header nav .nav .brg {
+    display: block;
+    font-size: 30px;
+  }
+  header section .container {
+    justify-content: center;
+    gap: 80px;
+    padding: 80px 0 80px 0;
+  }
+  header section .hero-left {
+    padding: 0px;
+    max-width: 688x;
+  }
+  header section h1 {
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -1.2px;
+  }
+  header section img {
+    max-width: 320px;
+    max-height: 640px;
+  }
+  main #feature .feature {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  main #feature .box-text {
+    grid-column: 1/3;
+    align-items: center;
+  }
+  main #feature .text > h2 {
+    text-align: center;
+    letter-spacing: -0.9px;
+    font-size: 36px;
+    line-height: 40px;
+  }
+  main #feature .card-text > b {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  main #feature .tg-card1 {
+    grid-column: 1;
+  }
+  main #feature .tg-card2 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  main #feature .tg-card3 {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  main #feature .tg-card4 {
+    grid-column: 1;
+    grid-row: 4;
+  }
+  main #testimonials .testimonials {
+    max-width: 688px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 81px 1fr 1fr 228px;
+    gap: 40px;
+  }
+  main #testimonials .tg-card1 {
+    grid-column: 1;
+  }
+  main #testimonials .tg-card2 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  main #testimonials .tg-card3 {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  main #testimonials .tg-card4 {
+    grid-column: 1;
+    grid-row: 4;
+  }
+  main #testimonials .testimonial-card {
+    max-width: 688px;
+  }
+  main #testimonials .testimonial-card1 {
+    max-width: 688px;
+  }
+  main #testimonials .f-text-box > h2 {
+    font-size: 36px;
+    line-height: 45px; /* 125% */
+    letter-spacing: -0.9px;
+  }
+  main #testimonials .card1 > img {
+    transform: translate(-22px, -64px);
+  }
+  main #metrics .metrics {
+    gap: 48px;
+  }
+  main #metrics .metrics-text {
+    max-width: 688px;
+  }
+  main #metrics .metrics-cards {
+    max-width: 688px;
+    gap: 157px;
+    row-gap: 40px;
+  }
+  main #metrics .card-metrics-text {
+    max-width: 328px;
+  }
+  main #logo-clouds .container {
+    max-width: 688px;
+  }
+  main #logo-clouds .logo-clouds-text {
+    max-width: 328px;
+  }
+  main #logo-clouds .logo-clouds-box {
+    max-width: 328px;
+    padding: 24px;
+  }
+  main #logo-clouds .icons {
+    gap: 32px;
+  }
+  main #logo-clouds .icons > img {
+    max-width: 39.017px;
+    max-height: 38.874px;
+  }
+  main #logo-clouds .f-text-box > h2 {
+    font-size: 36px;
+    line-height: 45px; /* 125% */
+    letter-spacing: -0.9px;
+  }
+  main #CTA .CTA {
+    max-width: 688px;
+    gap: 48px;
+    justify-content: center;
+  }
+  main #CTA .cta-text {
+    max-width: 688px;
+  }
+  main #CTA .cta {
+    align-items: start;
+  }
+  main #CTA .metrics {
+    gap: 48px;
+  }
+  main #CTA .text > h2 {
+    font-size: 36px;
+    line-height: 45px; /* 125% */
+    letter-spacing: -0.9px;
+  }
+  main footer .container {
+    max-width: 688px;
+  }
+}
+@media screen and (max-width: 429px) {
+  header nav .container {
+    max-width: 335px;
+    padding: 10px 0 0px 0;
+  }
+  header nav .container .nav-right .nav-btn {
+    max-width: 0px;
+    position: absolute;
+    top: 50px;
+    left: 246px;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    background-color: #C4B5FD;
+    border-radius: 20px;
+  }
+  header nav .container input:checked + ul {
+    padding: 40px 10px;
+    max-width: 200px;
+    height: 230px;
+    left: 12px;
+  }
+  header nav .container input:checked + ul + .nav-right .nav-btn {
+    padding: 40px 0;
+    max-width: 200px;
+    top: 75px;
+    left: 130px;
+    height: 230px;
+    align-items: center;
+  }
+  header section .container {
+    max-width: 335px;
+    gap: 80px;
+    padding: 40px 0 48px 0;
+  }
+  header section h1 {
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: -0.9px;
+  }
+  header section img {
+    max-width: 300px;
+  }
+  main #feature .feature {
+    max-width: 335px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 168px 168px 168px 168px 168px 168px;
+    gap: 48px;
+  }
+  main #feature .box-text {
+    grid-column: 1/2;
+    align-items: center;
+  }
+  main #testimonials .testimonials {
+    max-width: 335px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 123px 339px 395px 258px;
+    gap: 40px;
+  }
+  main #testimonials .testimonial-card {
+    max-width: 688px;
+  }
+  main #testimonials .testimonial-card1 {
+    max-width: 688px;
+  }
+  main #testimonials .f-text-box > h2 {
+    font-size: 36px;
+    line-height: 45px; /* 125% */
+    letter-spacing: -0.9px;
+  }
+  main #testimonials .f-text-box > p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  main #testimonials .card1 > img {
+    transform: translate(-22px, -64px);
+  }
+  main #metrics .metrics {
+    max-width: 335px;
+    gap: 48px;
+  }
+  main #metrics .f-text-box > h2 {
+    font-size: 36px;
+    line-height: 45px; /* 125% */
+    letter-spacing: -0.9px;
+  }
+  main #metrics .f-text-box > p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  main #metrics .metrics-text {
+    max-width: 335px;
+  }
+  main #logo-clouds .container {
+    max-width: 335px;
+    flex-wrap: wrap;
+    gap: 48px;
+  }
+  main #CTA .CTA {
+    padding-top: 48px;
+    max-width: 335px;
+    gap: 48px;
+    justify-content: center;
+  }
+  main #CTA .cta > p {
+    font-size: 16px;
+  }
+  main #CTA .cta > h2 {
+    font-size: 30px;
+    line-height: 40px;
+    line-height: 40px;
+  }
+  main #CTA .cta-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main #CTA .cta-img > img:nth-child(1) {
+    margin-bottom: 0px;
+  }
+  main #CTA .cta-img > img:nth-child(2) {
+    margin-top: 0px;
+  }
+  main footer .container {
+    max-width: 335px;
+  }
+}/*# sourceMappingURL=media.css.map */

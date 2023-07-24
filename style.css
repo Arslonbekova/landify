@@ -21,7 +21,7 @@ a {
 header {
   background: url("img/Background.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 header nav .nav {
   flex-wrap: wrap;

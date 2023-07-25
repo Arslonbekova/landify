@@ -31,6 +31,8 @@ header nav .nav {
 }
 header nav .nav .nav-left {
   align-items: center;
+  display: flex;
+  gap: 32px;
 }
 header nav .nav .lists {
   left: 360px;
@@ -48,6 +50,7 @@ header nav .nav .lists li {
 header nav .nav .lists a {
   all: unset;
   color: var(--neutral-900, #111827);
+  font-feature-settings: "clig" off, "liga" off;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
@@ -102,6 +105,7 @@ header section p {
 }
 header section .btn-hero {
   display: flex;
+  gap: 16px;
 }
 header section .btn-hero > a {
   display: flex;
@@ -116,6 +120,16 @@ header section .btn-hero > a {
   font-weight: 600;
   line-height: 24px;
   color: #7C3AED;
+}
+header section .btn-hero > a:nth-child(1) {
+  background: var(--primary-600, #7C3AED);
+  color: #fff;
+  border: 2px solid #7C3AED;
+}
+header section .btn-hero > a:nth-child(1):hover {
+  color: #7C3AED;
+  background: transparent;
+  border: 2px solid #7C3AED;
 }
 header section .btn-hero > a i {
   font-size: 20px;
@@ -449,11 +463,12 @@ main #CTA .CTA {
   padding: 0;
   align-items: center;
   flex-wrap: wrap;
+  gap: 7px;
 }
-main #CTA .cta-img > img:nth-child(1) {
+main #CTA .cta-img img:nth-child(1) {
   margin-bottom: 174px;
 }
-main #CTA .cta-img > img:nth-child(2) {
+main #CTA .cta-img img:nth-child(2) {
   margin-top: 174px;
 }
 main footer {

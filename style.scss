@@ -30,9 +30,10 @@ header{
             align-items: center;
             .nav-left{
                 align-items: center;
+                display: flex;
+                gap: 32px;
             }
             .lists{
-
                 left: 360px;
                 list-style: none;
                 display: flex;
@@ -47,10 +48,11 @@ header{
                 a{
                     all: unset;
                     color: var(--neutral-900, #111827);
+                    font-feature-settings: 'clig' off, 'liga' off;
                     font-size: 14px;
                     font-style: normal;
                     font-weight: 600;
-                    line-height: 20px;
+                    line-height: 20px; 
                 }
             }
             .nav-right{
@@ -106,6 +108,7 @@ header{
         }
         .btn-hero{
             display: flex;
+            gap: 16px;
         }
         .btn-hero>a{
             display: flex;
@@ -120,6 +123,16 @@ header{
             font-weight: 600;
             line-height: 24px;
             color: #7C3AED;
+        }
+        .btn-hero>a:nth-child(1){
+            background: var(--primary-600, #7C3AED);
+            color: #fff;
+            border: 2px solid #7C3AED;
+        }
+        .btn-hero>a:nth-child(1):hover{
+            color: #7C3AED;
+            background: transparent;
+            border: 2px solid #7C3AED;
         }
         .btn-hero>a i{
             font-size: 20px;
@@ -462,12 +475,15 @@ main{
             padding: 0;
             align-items: center;
             flex-wrap: wrap;
+            gap: 7px;
         }
-        .cta-img>img:nth-child(1){
-            margin-bottom: 174px;
-        }
-        .cta-img>img:nth-child(2){
-            margin-top: 174px;
+        .cta-img{
+            img:nth-child(1){
+                margin-bottom: 174px;
+            }
+            img:nth-child(2){
+                margin-top: 174px;
+            }
         }
 
     }

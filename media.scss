@@ -20,7 +20,7 @@
                         color: #7C3AED;
                     }
                 }
-                input:checked+ul{
+                input:checked+.nav-left>.lists{
                     max-width: 688px;
                     height: 185px;
                     padding: 40px;
@@ -169,6 +169,7 @@
         }
         #CTA{
             .CTA{
+                padding-top: 80px;
                 max-width: 688px;
                 gap: 48px;
                 justify-content: center;
@@ -186,6 +187,10 @@
                 font-size: 36px;
                 line-height: 45px; /* 125% */
                 letter-spacing: -0.9px;
+            }
+            .cta-img{
+               display: flex; 
+               gap: 79px;
             }
         }
         footer{
@@ -214,13 +219,13 @@
                         border-radius: 20px;
                     }
                 }
-                input:checked+ul{
+                input:checked+.nav-left>.lists{
                         padding: 40px 10px;
                         max-width: 200px;
                         height: 230px;
                         left: 12px;
                 }
-                input:checked + ul + .nav-right .nav-btn{
+                input:checked+.nav-left + .nav-right .nav-btn{
                     padding:40px 0  ;
                     max-width: 200px;
                     top: 75px;
@@ -263,7 +268,7 @@
             .testimonials{
                 max-width: 335px;
                 grid-template-columns:1fr;
-                grid-template-rows: 123px 339px 395px 258px ;
+                grid-template-rows: 123px 366px 424px 283px;
                 gap: 40px;
             }
             .testimonial-card{
@@ -313,10 +318,10 @@
         }
         #CTA{
             .CTA{
-                padding-top: 48px;
                 max-width: 335px;
                 gap: 48px;
                 justify-content: center;
+                padding-top: 48px;
              }
             .cta>p{
                 font-size: 16px;
@@ -330,6 +335,7 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                gap: 0px;
             }
             .cta-img>img:nth-child(1){
                 margin-bottom: 0px;
